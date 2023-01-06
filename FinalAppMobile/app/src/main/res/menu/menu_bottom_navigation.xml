@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ <item android:id="@+id/botom_home"
+     android:title="@string/home_blank_fragment"
+     android:icon="@drawable/ic_baseline_home_24">
+ </item>
+
+    <item android:id="@+id/botom_file"
+        android:title="@string/file_blank_fragment"
+        android:icon="@drawable/ic_baseline_insert_drive_file_24">
+    </item>
+
+    <item android:id="@+id/botom_image"
+        android:title="@string/image_blank_fragment"
+        android:icon="@drawable/ic_baseline_home_24">
+    </item>
+
+    <item android:id="@+id/botom_video"
+        android:title="@string/video_blank_fragment"
+        android:icon="@drawable/ic_baseline_home_24">
+    </item>
+
+    <item android:id="@+id/botom_profile"
+        android:title="@string/profile_blank_fragment"
+        android:icon="@drawable/ic_baseline_home_24">
+    </item>
+
+
+
+
+
+</menu>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/username_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="4"
+            android:rowCount="10"
+            tools:context="com.android_examples.com.gridlayout.MainActivity" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:text="Hello, Welcome Back!"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:paddingLeft="20dp"/>
+
+
+            <SearchView
+                android:id="@+id/searchView"
+                android:layout_width="380dp"
+                android:layout_height="40dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_margin="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/custom_edittext"
+                android:iconifiedByDefault="false"
+                android:queryHint="Search here"
+                android:outlineAmbientShadowColor="@color/purple_200"
+                android:layout_marginBottom="10dp"/>
+
+            <ImageView
+                android:id="@+id/textView0"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:background="@drawable/home_background"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:padding="60dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="50dp"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:text="Get your files offline"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:paddingLeft="120dp"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:hint="Make your most important files available without an internet connection"
+                android:layout_row="5"
+                android:layout_column="0"
+                android:textColor="@color/black"
+                android:paddingLeft="30dp"
+                android:textSize="12dp"
+                android:textStyle="bold"/>
+        </GridLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
